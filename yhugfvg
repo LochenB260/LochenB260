@@ -1,0 +1,26 @@
+package cvit.com.model;
+
+public class Grade {
+    public String sno;   
+    public String cno;   
+    public String grade;  
+   
+    public String getCno() {
+        return cno;
+    }
+    public String getGrade() {
+        return grade;
+    }
+    public String getSno() {
+        return sno;
+    }
+    public void setCno(String cno) {
+        this.cno = cno;
+    }
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+    public void setSno(String sno) {
+        this.sno = sno;
+    }
+}
